@@ -1,4 +1,4 @@
-# InsuranceComparision
+![image](https://github.com/user-attachments/assets/762c059e-fb72-4d3f-8fec-60d770b12076)# InsuranceComparision
 
 **利用Scrapy爬虫抓取慧择保险网数据存入Mysql数据库,根据个人保险需求定制推荐保险**  
 
@@ -13,7 +13,7 @@
 
 ## 抓取流程
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/a57786e9-ca3b-4661-ab53-6c9749f78e24)
 
 
 ## type生成规则
