@@ -11,3 +11,10 @@
 ![ca4ec2d87c0b31c40ffc823c81933f7](https://github.com/user-attachments/assets/cb4b1894-5a8f-4862-b157-0b3692405b47)
 ![image](https://github.com/user-attachments/assets/63d753c9-27c1-44ae-9555-1fe8ecc387c1)
 
+## 抓取流程
+
+![Uploading image.png…]()
+
+
+## type生成规则
+![image](https://github.com/user-attachments/assets/359bb715-e2ef-4005-b14c-04e25205275a)
