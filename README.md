@@ -13,7 +13,8 @@
 
 ## 抓取流程
 
-![image](https://github.com/user-attachments/assets/a57786e9-ca3b-4661-ab53-6c9749f78e24)
+![image](https://github.com/user-attachments/assets/f72f6675-ea18-4573-b58e-973d8cd9e6d3)
+
 
 
 ## type生成规则
