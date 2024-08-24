@@ -1,6 +1,8 @@
 # InsuranceComparision
 
-**利用Scrapy爬虫抓取慧择保险网数据存入Mysql数据库,根据个人保险需求定制推荐保险**
+**利用Scrapy爬虫抓取慧择保险网数据存入Mysql数据库,根据个人保险需求定制推荐保险**  
+
+
 需要自己配置setting中的agent、ip、mysql等相关内容
 运行结果如下图
 
