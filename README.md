@@ -7,7 +7,7 @@
 
 ## 操作步骤  
 * 配置setting中的agent、ip、mysql相关参数；配置Inspider6中的headers1。
-* 控制台中输入scrapy crawler Inspider6  
+* 控制台中输入scrapy crawl Inspider6  
 * 输入个人信息  
 * 得到运行结果  
 
