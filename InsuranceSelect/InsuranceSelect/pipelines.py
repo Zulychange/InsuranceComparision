@@ -42,10 +42,6 @@ class SynchroDBPipeline(object):
     @classmethod
     def from_crawler(cls, crawler):
         """
-        可以简单理解为创建了一个我没看见在哪里使用的实例！
-        访问配置：可以轻松获取 Scrapy 的设置（settings）。
-        连接信号：能够注册和处理 Scrapy 的信号（signals）。
-        统一初始化：提供一种统一的方式来初始化中间件实例。
         :param crawler:
         :return:
         """
@@ -62,7 +58,6 @@ class SynchroDBPipeline(object):
         )
 
     def process_item(self, item, spider):
-        # item类似字典，可以使用get方法
         table_fields = list(item.fields.keys())
         table_name = "Insurance2"
 
