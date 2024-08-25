@@ -3,7 +3,13 @@
 **利用Scrapy爬虫抓取慧择保险网数据存入Mysql数据库,根据个人保险需求定制推荐保险**  
 
 
-需要自己配置setting中的agent、ip、mysql等相关内容  
+需要自己 
+
+## 操作步骤  
+* 配置setting中的agent、ip、mysql相关参数；配置Inspider6中的headers1。
+* 控制台中输入scrapy crawler Inspider6  
+* 输入个人信息  
+* 得到运行结果  
 
 运行结果如下图
 
@@ -17,5 +23,7 @@
 
 
 
-## type生成规则
-![image](https://github.com/user-attachments/assets/359bb715-e2ef-4005-b14c-04e25205275a)
+## 数据库Type字段  
+
+![image](https://github.com/user-attachments/assets/9dfd90c4-3ba5-4d01-a1bb-3ffea3c276ef)
+
