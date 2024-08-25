@@ -292,7 +292,7 @@ class GetandAssemble:
         """
         option_url = GetandAssemble.getoptionurl(url)
         headers1 = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61',
+            'User-Agent': '自己的agent',
         }
         response = requests.get(option_url, headers=headers1)
         json_data = response.json()
