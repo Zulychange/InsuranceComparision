@@ -12,13 +12,13 @@
 * 得到运行结果  
 
 ## 使用的包
-** re
-** scrapy
-** logging
-** pymysql
-** requests
-** random
-** selenium
+- `re`
+- `scrapy`
+- `logging`
+- `pymysql`
+- `requests`
+- `random`
+- `selenium`
 
 **运行结果如下图**
 
