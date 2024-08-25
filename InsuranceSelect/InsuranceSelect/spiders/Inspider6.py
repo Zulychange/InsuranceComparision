@@ -425,7 +425,7 @@ class Inspider6Spider(CrawlSpider):
 
                 try:
                     headers1 = {
-                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61',
+                        'User-Agent': '自己的agent',
                     }
                     response = requests.get(new_url, headers=headers1)
                     # print("进去找找数据{}".format(new_url))
