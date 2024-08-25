@@ -11,7 +11,16 @@
 * 输入个人信息  
 * 得到运行结果  
 
-运行结果如下图
+## 使用的包
+** re
+** scrapy
+** logging
+** pymysql
+** requests
+** random
+** selenium
+
+**运行结果如下图**
 
 ![0382d48e179be032321958b2e0fe8fd](https://github.com/user-attachments/assets/99fbec4a-9b3d-4989-bedd-7ca198d2b60e)
 ![ca4ec2d87c0b31c40ffc823c81933f7](https://github.com/user-attachments/assets/cb4b1894-5a8f-4862-b157-0b3692405b47)
