@@ -27,6 +27,7 @@ ultradict = set()
 
 
 class GetInformation:
+  
     @staticmethod
     def get_validinfor(prompt, pattern):
         """
@@ -43,7 +44,7 @@ class GetInformation:
                 print("！！输入格式错误！！")
         return value
 
-       def get_information(self):
+    def get_information(self):
         """
         个人信息基本输入
         """
