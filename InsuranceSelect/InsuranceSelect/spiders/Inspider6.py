@@ -43,35 +43,35 @@ class GetInformation:
                 print("！！输入格式错误！！")
         return value
 
-    def get_information(self):
+       def get_information(self):
         """
         个人信息基本输入
         """
         print("6号爬虫的信息输入")
         infordict = {}
         infordict['vesterAge'] = self.get_validinfor("请输入投保人生日(xxxx-x-x):", '((19[0-9][0-9]|20[0-9][0-9])-(1[0-2]|0[1-9])-(0[1-9]|[1-2][0-9]|3[0-1]))$')
-        infordict['vesterSex'] = self.get_validinfor("请输入投保人性别:", '男|女')
-        infordict['insureForSelf'] = self.get_validinfor("是否为自己承保:", '是|否')
+        infordict['vesterSex'] = self.get_validinfor("请输入投保人性别:", '(男|女)$')
+        infordict['insureForSelf'] = self.get_validinfor("是否为自己承保:", '(是|否)$')
         if infordict['insureForSelf'] == "是":
             infordict['insurantDate'] = infordict['vesterAge']
             infordict['sex'] = infordict['vesterSex']
         else:
             infordict['insurantDate'] = self.get_validinfor("被保险人生日:", '(19[0-9][0-9]|20[0-9][0-9])-(1[0-2]|0[1-9])-(0[1-9]|[1-2][0-9]|3[0-1])$')
-            infordict['sex'] = self.get_validinfor("请输入被保险人性别:", '男|女')
+            infordict['sex'] = self.get_validinfor("请输入被保险人性别:", '(男|女)$')
 
-        infordict['paymentType'] = self.get_validinfor("缴费方式(年交/一次性):", "年交|一次性")
+        infordict['paymentType'] = self.get_validinfor("缴费方式(年交/一次性):", "(年交|一次性)$")
         if infordict["paymentType"] == "一次性":
             infordict['insureAgeLimit'] = "趸交"
         else:
-            infordict['insureAgeLimit'] = self.get_validinfor("缴费期限(数字):", "\\d+")
+            infordict['insureAgeLimit'] = self.get_validinfor("缴费期限(数字):", "\\d+$")
         # infordict['insurantJob']    = '1-6类'
-        infordict['receivingWay'] = self.get_validinfor("领取方式(月领/年领):", "月领|年领")
-        infordict['receivingTime'] = self.get_validinfor("领取时间(数字):", '\\d+')
-        infordict['insurantDateLimit'] = self.get_validinfor("保险期限:", "(终身)|\\d+")
-        infordict['premium'] = self.get_validinfor("期望保费:", '\\d+')
+        infordict['receivingWay'] = self.get_validinfor("领取方式(月领/年领):", "(月领|年领)$")
+        infordict['receivingTime'] = self.get_validinfor("领取时间(数字):", '\\d+$')
+        infordict['insurantDateLimit'] = self.get_validinfor("保险期限:", "(终身|\\d+)$")
+        infordict['premium'] = self.get_validinfor("期望保费:", '\\d+$')
         # infordict['insurePlan'] = "方案一"
         return infordict
-
+         
     @staticmethod
     def generatetype(**infordict):
         """
