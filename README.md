@@ -32,7 +32,4 @@
 
 
 
-## 数据库Type字段  
-
-![image](https://github.com/user-attachments/assets/9dfd90c4-3ba5-4d01-a1bb-3ffea3c276ef)
 
