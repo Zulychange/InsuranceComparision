@@ -1,7 +1,7 @@
 # 年金险比较程序
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
-# from scrapy import cmdline
+from scrapy import cmdline
 from InsuranceSelect.settings import DB_SETTINGS
 from InsuranceSelect.items import InsuranceselectItem
 from datetime import datetime
@@ -10,9 +10,6 @@ import pymysql
 import requests
 import re
 
-# 投保人性别：vesterSex；投保人出生日期：vesterAge；是否本人投保：insureForSelf；
-# 被保险人生日：insurantDate；被保险人性别：sex；保险期限：insurantDateLimit；缴费方式：paymentType
-# 缴费年限：insureAgeLimit；保费：premium
 inforitemeng = ['vesterSex', 'vesterAge', 'insureForSelf', 'insurantDate', 'sex',
                 'insurantDateLimit', 'paymentType', 'insureAgeLimit',
                 'receivingWay', 'receivingTime', 'premium']
