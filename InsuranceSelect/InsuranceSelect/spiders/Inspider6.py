@@ -476,5 +476,5 @@ class Inspider6Spider(CrawlSpider):
             print("{}、您的条件下{}的现值为{}: {}".format(i, name, pv, url))
             i += 1
 
-
-# cmdline.execute('scrapy crawl Inspider5'.split())
+if __name__ == "__main__":
+    cmdline.execute('scrapy crawl Inspider5'.split())
